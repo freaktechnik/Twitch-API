@@ -193,6 +193,29 @@ unban_success | `target_user` is no longer banned from this room.
 bad_unban_no_ban | `target_user` is not banned from this room.
 already_banned | `target_user` is already banned in this room.
 unrecognized_cmd | Unrecognized command: `command`
+usage_me | Usage: "/me <message>" - Send an "emote" message in the third person.
+usage_help | Usage: "/help" - Lists the commands available to you in this room.
+usage_mods | Usage: "/mods" - Lists the moderators of this channel.
+usage_color | Usage: "/color <color>" - Change your username color. Color must be in hex (#000000) or one of the following: Blue, BlueViolet, CadetBlue, Chocolate, Coral, DodgerBlue, Firebrick, GoldenRod, Green, HotPink, OrangeRed, Red, SeaGreen, SpringGreen, YellowGreen.
+usage_ban | Usage: "/ban <username>" - Permanently prevent a user from chatting. Use "unban" to remove a ban.
+usage_unban | Usage: "/unban <username>" - Removes a ban on a user.
+usage_clear | Usage: "/clear" - Clear chat history for all users in this room.
+usage_timeout | Usage: "/timeout <login> [duration]" - Temporarily prevent a user from chatting. Duration (optional, default=600, max=1209600) must be a positive number of seconds. Use "unban" to remove a timeout.
+usage_subscribers | Usage: "/subscribers" - Enables subscribers-only mode (only subscribers may chat in this channel). Use "subscribersoff" to disable.
+usage_subscribersoff | Usage: "/subscribersoff" - Disables subscribers-only mode.
+usage_slow | Usage: "/slow [duration]" - Enables slow mode (limit how often users may send messages). Duration (optional, default=120) must be a positive number of seconds. Use "slowoff" to disable.
+usage_slowoff | Usage: "/slowoff" - Disables slow mode.
+usage_r9kbeta | Usage: "/r9kbeta" - Enables r9k mode. See http://link.twitch.tv/r9k for details. Use "r9kbetaoff" to disable.
+usage_r9kbetaoff | Usage: "/r9kbetaoff" - Disables r9k mode.
+usage_host | Usage: "/host <channel>" - Host another channel. Use "unhost" to unset host mode.
+usage_unhost | Usage: "/unhost" - Stop hosting another channel.
+usage_mod | Usage: "/mod <username>" - Grant mod status to a user. Use "mods" to list the moderators of this room.
+usage_unmod | Usage: "/unmod <username>" - Revoke mod status from a user. Use "mods" to list the moderators of this room.
+usage_commercial | Usage: "/commercial [length]" - Triggers a commercial. Length (optional) must be a positive number of seconds.
+usage_emoteonly | Usage: "/emoteonly" - Enables emote-only mode (only emoticons may be used in chat). Use "emoteonlyoff" to disable.
+usage_emoteonlyoff | Usage: "/emoteonlyoff" - Disables emote-only mode.
+no_help | No help available.
+
 
 
 ### HOSTTARGET
