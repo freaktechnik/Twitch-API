@@ -214,9 +214,13 @@ usage_unmod | Usage: "/unmod <username>" - Revoke mod status from a user. Use "m
 usage_commercial | Usage: "/commercial [length]" - Triggers a commercial. Length (optional) must be a positive number of seconds.
 usage_emoteonly | Usage: "/emoteonly" - Enables emote-only mode (only emoticons may be used in chat). Use "emoteonlyoff" to disable.
 usage_emoteonlyoff | Usage: "/emoteonlyoff" - Disables emote-only mode.
+usage_cheerbadge | Useage: "/cheerbadge" - Toggle the visibility of your Cheer badge in this channel.
 no_help | No help available.
-
-
+msg_subonly | This room is in subscribers only mode. To talk, purchase a channel subscription at http://www.twitch.tv/`channel_name`/subscribe?ref=subscriber_only_mode_chat
+msg_slowmode | This room is in slow mode and you are sending messages too quickly. You will be able to talk again in `cooldown` seconds.
+msg_duplicate | Your message was not sent because it is identical to the previous one you sent, less than 30 seconds ago.
+msg_emoteonly | This room is in emote only mode. You can find your currently available emoticons using the smiley in the chat text area. See http://link.twitch.tv/emote_only_mode for more information
+no_cheer_badge | You do not have a Cheer badge in this channel.
 
 ### HOSTTARGET
 
