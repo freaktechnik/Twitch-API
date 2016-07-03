@@ -193,6 +193,7 @@ unban_success | `target_user` is no longer banned from this room.
 bad_unban_no_ban | `target_user` is not banned from this room.
 already_banned | `target_user` is already banned in this room.
 unrecognized_cmd | Unrecognized command: `command`
+cmds_available | Commands available to you in this room (use /help <command> for details): `command_list`
 usage_me | Usage: "/me <message>" - Send an "emote" message in the third person.
 usage_help | Usage: "/help" - Lists the commands available to you in this room.
 usage_mods | Usage: "/mods" - Lists the moderators of this channel.
@@ -221,6 +222,8 @@ msg_slowmode | This room is in slow mode and you are sending messages too quickl
 msg_duplicate | Your message was not sent because it is identical to the previous one you sent, less than 30 seconds ago.
 msg_emoteonly | This room is in emote only mode. You can find your currently available emoticons using the smiley in the chat text area. See http://link.twitch.tv/emote_only_mode for more information
 no_cheer_badge | You do not have a Cheer badge in this channel.
+room_mods | The moderators of this room are: `mod_list`
+color_changed | Your color has been changed.
 
 ### HOSTTARGET
 
