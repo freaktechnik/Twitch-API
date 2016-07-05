@@ -17,6 +17,27 @@ Streams are video broadcasts that are currently live. They have a [broadcaster][
 
 Returns a stream object if live.
 
+### Parameters
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Required?</th>
+            <th width="50">Type</th>
+            <th width=100%>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>stream_type</code></td>
+            <td>optional</td>
+            <td>string</td>
+            <td>Only shows streams from a certain type. Permitted values: <code>all</code>, <code>playlist</code>, <code>live</code>. Defaults to <code>live</code></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Example Request
 
 ```bash
@@ -356,7 +377,7 @@ curl -H 'Accept: application/vnd.twitchtv.v3+json' \
   ]
 }
 ```
-    
+
 ## `GET /streams/summary`
 
 Returns a summary of current streams.
