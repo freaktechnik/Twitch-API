@@ -224,6 +224,7 @@ msg_emoteonly | This room is in emote only mode. You can find your currently ava
 no_cheer_badge | You do not have a Cheer badge in this channel.
 room_mods | The moderators of this room are: `mod_list`
 color_changed | Your color has been changed.
+msg_censored_channel | Your message was modified for using words banned by this channel
 
 ### HOSTTARGET
 
