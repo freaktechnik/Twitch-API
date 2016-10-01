@@ -225,6 +225,8 @@ no_cheer_badge | You do not have a Cheer badge in this channel.
 room_mods | The moderators of this room are: `mod_list`
 color_changed | Your color has been changed.
 msg_censored_channel | Your message was modified for using words banned by this channel
+cheer_badge_deselected | Cheer badge unequipped.
+cheer_badge_selected | Cheer badge equipped.
 
 ### HOSTTARGET
 
