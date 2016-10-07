@@ -306,7 +306,7 @@ Adds IRC v3 message tags to `PRIVMSG`, `USERSTATE`, `NOTICE` and `GLOBALUSERSTAT
 > @badges=staff/1,bits/1000;bits=100;color=;display-name=TWITCH_UserNaME;emotes=;id=b34ccfc7-4977-403a-8a94-33c6bac34fb8;mod=0;room-id=1337;subscriber=0;turbo=1;user-id=1337;user-type=staff :twitch_username!twitch_username@twitch_username.tmi.twitch.tv PRIVMSG #channel :cheer100
 ```
 
-- `badges` is a comma-separated list of chat badges, valid badges are `staff`, `admin`, `global_mod`, `moderator`, `subscriber` and `turbo`.
+- `badges` is a comma-separated list of chat badges, valid badges are `staff`, `admin`, `global_mod`, `moderator`, `subscriber`, `premium`, and `turbo`.
 - `color` is a hexadecimal RGB color code
   - Empty if it's never been set.
 - `display-name` is the user's display name, escaped [as described in the IRCv3 spec](http://ircv3.net/specs/core/message-tags-3.2.html).
